@@ -140,20 +140,41 @@ h1.banner-title {
 .plantLover-section {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0px 10px 0px 10px;
 }
 
 .plantLover-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 45px;
 }
 
 .plantLover-image {
   position: relative;
+  max-width: calc(50% - 10px);
+}
+.plantLover-content {
+  max-width: calc(50% - 10px);
 }
 .badge {
   width: 168px;
   position: absolute;
   top: -50px;
   right: -50px;
+}
+.plantLover-content h2 {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.plantLover-content li {
+  margin-bottom: 20px;
+  color: var(--descriptionColor);
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+.plantLover-content li:last-child {
+  margin-bottom: 0px;
 }
