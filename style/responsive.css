@@ -1,0 +1,48 @@
+/* reponsive Mobile device */
+
+@media screen and (max-width: 576px) {
+  /* header style  */
+  /* navbar section style */
+  .nav li:nth-child(1) {
+    display: none;
+  }
+  .nav li:nth-child(2) {
+    display: none;
+  }
+  .nav li:nth-child(3) {
+    display: none;
+  }
+  .header-container {
+    padding: 25px 10px 0px 10px;
+  }
+  /* banner style */
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin: 28px 0px;
+  }
+  .banner-content {
+    max-width: 100%;
+  }
+  .banner-image {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  h1.banner-title {
+    font-size: 24px;
+  }
+  .banner-description {
+    font-size: 14px;
+  }
+
+  /* plants section style */
+  .plants-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plant-content {
+    width: auto;
+  }
+  .plant-section {
+    padding: 10px;
+  }
+}
