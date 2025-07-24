@@ -68,6 +68,19 @@
     padding: 0px 10px 0px 10px;
     margin: 0px 0px 16px 30px;
   }
-  .plantLover-content ul {
+  /* latest deals section */
+  .deal-content {
+    width: auto;
+    margin: 0px auto 60px;
+  }
+  .zabo-plant {
+    height: 201px;
+    order: 3;
+  }
+  .deals-container {
+    grid-template-areas:
+      "sixtyParsent"
+      "thirtyParsent"
+      "zaboPlant";
   }
 }

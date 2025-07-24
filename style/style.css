@@ -18,11 +18,12 @@ img {
 }
 .section-title {
   font-family: "Noto Serif", serif;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 .section-title span {
   color: var(--primaryColor);
 }
+
 /* .description-color {
   color: rgba(0, 0, 0, 0.5);
 } */
@@ -177,4 +178,116 @@ h1.banner-title {
 }
 .plantLover-content li:last-child {
   margin-bottom: 0px;
+}
+/* deals section style */
+.deal-content h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.deal-description {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--descriptionColor);
+}
+.latest-deal-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.latest-deals-container {
+  margin: 100px auto;
+}
+.deal-content {
+  width: 710px;
+  margin: 0px auto 90px;
+}
+.sixtyParsent {
+  grid-area: sixtyParsent;
+}
+.thirtyParsent {
+  grid-area: thirtyParsent;
+}
+.zabo-plant {
+  grid-area: zaboPlant;
+}
+.deals-container {
+  display: grid;
+  grid-template-areas:
+    "sixtyParsent   zaboPlant   zaboPlant"
+    "thirtyParsent    zaboPlant   zaboPlant";
+  column-gap: 28px;
+  row-gap: 25px;
+}
+.sixtyParsent {
+  background-image: url("../assets/deal-bloom.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.thirtyParsent {
+  background-image: url("../assets/deal-ana.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  grid-row: span 2;
+}
+.zabo-plant {
+  max-width: 753px;
+  max-height: 423px;
+  background-image: url("../assets/deal-zabo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  grid-row: span 2;
+}
+.sixtyParsent h3,
+.thirtyParsent h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sixtyParsent a,
+.thirtyParsent a,
+.zabo-plant a {
+  color: #ffffff;
+  font-weight: 600;
+}
+.sixtyParsent a,
+.thirtyParsent a {
+  padding: 9px 50px;
+}
+.zabo-plant h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.thirtyParsent {
+  max-width: 100%;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: irec center;
+  justify-content: center;
+}
+.sixtyParsent {
+  max-width: 100%;
+  height: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.zabo-plant {
+  height: 760px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
