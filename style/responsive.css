@@ -83,4 +83,19 @@
       "thirtyParsent"
       "zaboPlant";
   }
+  /* join section style */
+  .join-section-container {
+    margin: 80px auto;
+  }
+  .input-field input {
+    width: auto;
+  }
+  /* footer section style */
+  .footer-container {
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+  }
 }
