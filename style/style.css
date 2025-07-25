@@ -40,6 +40,7 @@ img {
   background-color: var(--primaryColor);
   color: #ffffff;
   border: none;
+  transition: background-color 0.3s;
 }
 /* header section style */
 .header {
@@ -139,6 +140,9 @@ h1.banner-title {
 }
 .plant-container {
   margin-bottom: 100px;
+}
+.btn:hover {
+  background-color: rgb(253, 99, 9);
 }
 /* plant lover section style */
 .plantLover-section {
